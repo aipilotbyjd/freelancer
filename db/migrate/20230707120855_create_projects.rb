@@ -4,7 +4,6 @@ class CreateProjects < ActiveRecord::Migration[7.0]
       t.string :title
       t.string :priority
       t.text :description
-      t.string :title
       t.string :client_id
       t.string :project_manager
 
